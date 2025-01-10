@@ -1,0 +1,18 @@
+*{
+    background-color:white;
+}
+.Students table{
+    border:1px solid #ccc;
+    border-collapse:collapse;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .Students table td,
+  .Students table th{
+    text-align: left;
+    border: 1px solid ;
+    padding: 5px 10px;
+  }
+  .Students table th{
+    width: 100px;
+  }
