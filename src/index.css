@@ -1,4 +1,4 @@
-*{
+/* *{ 
   background-color: aqua;
 }
 .heading{
@@ -27,4 +27,10 @@
 }
 .Students table th{
   width: 100px;
+}*/
+#root{
+  display: flex;
+  align-items: center;
+  
+
 }

@@ -1,4 +1,4 @@
-*{
+/* *{ 
     background-color:white;
 }
 .Students table{
@@ -15,4 +15,64 @@
   }
   .Students table th{
     width: 100px;
+  }*/
+  *{
+    box-sizing: "inter",sans-serif;
   }
+  
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    margin: 0;
+
+  }
+  h2{
+    margin: 10px 0;
+
+
+  }
+  h2{
+    margin: 6px 0;
+  }
+  p{
+    font-size: 20px;
+    line-height: 21px;
+  }
+  img{
+    width: 80px;
+    height: 60px;
+  }
+  .card-container{
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding-top:30px ;
+    max-width: 90%;
+    text-align: center;
+
+  }
+  .pro{
+    color: aliceblue;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 9px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .ONLINE{
+    background-color: green;
+  }
+  .OFFLINE{
+    background-color: red;
+    
+  }
+  .img{
+    border: 3px solid;
+    border-radius: 50%;
+  }
+  .buttons

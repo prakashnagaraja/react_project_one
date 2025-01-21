@@ -1,12 +1,20 @@
 //import { LearnComponents } from "./components/LearnComponents";
 
+import { File } from "./components/File";
+
 //import { Students } from "./components/students";
 
 //import { Header } from "./components/Header";
  
-import "./assets/app.css";
-import { Example } from "./components/Example";
+//import "./assets/app.css";
+//import { Example } from "./components/Example";
 //import { Array } from "./components/Array";
+
+//import { User } from "./components/User";
+
+
+
+
 
 
 
@@ -39,9 +47,14 @@ function App() {
       <p>This is child pagraph 2</p>
     </child> 
     
-    <Array  items={items}/>*/}
+    <Array  items={items}/>
 
-    <Example  color="Blue"/>
+   
+
+    <Example  color="Blue"/>*/}
+    
+{/* <User/> */}
+<File />
    
 </>
 
